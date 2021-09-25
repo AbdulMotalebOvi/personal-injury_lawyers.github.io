@@ -1,0 +1,171 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .header_desc span::before {
+      left: -43%;
+      width: 68px;  
+    }
+    .availabe_title::before {
+      left: 12%;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .header_desc::before {
+      display: none;
+    }
+    .header_desc span::before {
+      display: none;
+    }
+    .topRigthBtn span {
+      left: 39px;
+    }
+    .headerBtn.m_tp {
+      margin: 30px 20px;
+    }
+    #service .img-fluid {
+      margin-top: 114px;
+    }
+    #service .container {
+      position: relative;
+      width: 102%;
+    }
+    .availabe_title::before {
+      left: 14%;
+    }
+    #service .img-fluid {
+      margin-top: 54px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    header{
+      width: 100%;
+      height: 100%;
+      text-align: left;
+    }
+    .header_desc {
+        font-size: 37px;
+    }
+    .headerBtn.m_tp.aos-init.aos-animate {
+      margin-left: 20px;
+    }
+    .headerBtn.m_tp {
+        margin: 30px 0px;
+        
+    }
+    .header_desc::before {
+      display: none;
+    }
+    .header_desc span::before {
+      display: none;
+    }
+      header .header_top::before {
+      height: 581px;
+    }
+    .topRigthBtn span {
+      left: 43px;
+    }/* header end */
+    
+    .availabe_title::before {
+      left: 2%;
+      top: -2%;     
+    }/* available */
+    .button {
+      margin-left: 14px;
+    }/* button */
+    .section_titlee h2::after {
+      top: 40px;
+      left: 43%;
+    }/* REQUIREMENTS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    /* hero start */
+    header{
+      width: 100%;
+      height: 100%;
+      text-align: left;
+    }
+    .header_desc {
+        font-size: 37px;
+    }
+    .headerBtn.m_tp.aos-init.aos-animate {
+      margin-left: 20px;
+    }
+    .headerBtn.m_tp {
+        margin: 30px 0px;
+        text-align: center;
+    }
+    .header_desc::before {
+        display: none;
+    }
+    .header_desc span::before {
+        display: none;
+    }
+    /* hero-end */
+    /* Requirements start */
+    .section_titlee h2::after {
+        top: 42px;
+        left: 39%;
+    }
+      /* REQ-END */
+      .availabe_title::before {
+        left: 3%;
+        top: -2%;
+    }
+    .topRigthBtn span {
+      left: -3px;
+      top: 42px;
+    }
+    .topRigthBtn{
+      top: -18px;
+      right: -15px;
+      position: relative;
+    }
+    /* float button */
+    .button {
+      margin-left: 14px;
+    }
+  }

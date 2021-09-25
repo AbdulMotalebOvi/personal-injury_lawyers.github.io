@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?8fbaa1a91e2ee3cd953f9843798590a3") format("truetype"),
+url("./flaticon.woff?8fbaa1a91e2ee3cd953f9843798590a3") format("woff"),
+url("./flaticon.woff2?8fbaa1a91e2ee3cd953f9843798590a3") format("woff2"),
+url("./flaticon.eot?8fbaa1a91e2ee3cd953f9843798590a3#iefix") format("embedded-opentype"),
+url("./flaticon.svg?8fbaa1a91e2ee3cd953f9843798590a3#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-question-mark:before {
+    content: "\f101";
+}
+.flaticon-call:before {
+    content: "\f102";
+}
+.flaticon-facebook:before {
+    content: "\f103";
+}
+.flaticon-twitter:before {
+    content: "\f104";
+}
+.flaticon-tick:before {
+    content: "\f105";
+}
+.flaticon-check:before {
+    content: "\f106";
+}
+.flaticon-tick-1:before {
+    content: "\f107";
+}
+.flaticon-check-1:before {
+    content: "\f108";
+}
+.flaticon-whatsapp:before {
+    content: "\f109";
+}
